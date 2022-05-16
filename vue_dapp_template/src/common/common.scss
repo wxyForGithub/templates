@@ -1,0 +1,130 @@
+.flex_h_between_center{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex_h_between_start{
+  display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.flex_h_center_center{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.flex_h_center_end{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: center;
+}
+.flex_h_end_center{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+.flex_h_start_center{
+  display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+.flex_h_between_end{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.flex_v_center_center{
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.flex_v_center_end{
+  display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+.flex_v_center_start{
+  display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.flex_h{
+  display: flex;
+  flex-direction: row;
+}
+.flex_v{
+  display: flex;
+  flex-direction: column;
+}
+.flex1{
+  flex: 1;
+}
+.flex2{
+  flex: 2;
+}
+.aLeft{
+  text-align: left;
+}
+.aRight{
+  text-align: right;
+}
+.aCenter{
+  text-align: center;
+}
+.p_relative{
+  position: relative;
+}
+
+.button{
+  outline: none;
+  border: none;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.bg{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+// @font-face {
+//   font-family: 'DinBold';
+//   src: url('../assets/font/DIN-BlackItalicAlt.otf');
+// }
+
+
+.input_wrap{
+  border: 1px solid #FE6E0B;
+  border-radius: 46px;
+  border-radius: 46px;
+  width: 100%;
+  background-color: #FFEBDE;
+  box-sizing: border-box;
+  padding-right: 45px;
+  input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    padding-left: 45px;
+    padding-right: 45px;
+    box-sizing: border-box;
+    height: 90px;
+    &::placeholder{
+      color: #B37E72;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+}
