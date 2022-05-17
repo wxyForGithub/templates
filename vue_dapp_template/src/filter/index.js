@@ -1,4 +1,3 @@
-import Vue from 'vue'
 import {calcShowAmount} from '@/utils/ethersUtils/helper/number'
 
 export const subNumber = (value, arg1 = 4) =>{
